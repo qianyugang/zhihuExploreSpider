@@ -1,3 +1,9 @@
-# zhihuExploreSpider
-知乎发现爬虫
-用python抓取知乎发现内容
+# 知乎发现抓取爬虫
+### 简介
+之前自学了一些python的一些语法，希望能用python来写一个小程序，想来想去就从我平常看的知乎着手，毕竟一开始就从一些静态网页上着手比较简单，然后在git上面搜索到了一个简单的抓取豆瓣爬虫的例子,就拿来试着跑了一下，然后修改了一下其中的代码，变成知乎的。
+### 库
+- BeautifulSoup
+- requests
+### 参考
+![https://github.com/Sambor123/DoubanMovieTop250](https://github.com/Sambor123/DoubanMovieTop250)
+
