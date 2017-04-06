@@ -48,6 +48,7 @@ if __name__ == "__main__":
 		movies_list=get_review(get_url(root_url,start))
 		for movie_dict in movies_list:
 			#print(movies_list)
+			#这里就可以循环插入数据库了
 			#print('电影排名：'+movie_dict['rank'])
 			print('问题：'+movie_dict.get('name'))
 			print('回答者：'+movie_dict.get('author'))
