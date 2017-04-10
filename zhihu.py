@@ -17,7 +17,7 @@ def get_url(root_url,start):
 
 def get_review(page_url):
 	movies_list=[]
-	#请求url，返回response对象
+	#请求url，返回response对象，有的请求需要伪造一个请求头，因为通常服务端会有一个识别禁止。
 	headers = {'content-type': 'text/html','User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'}
 	response=requests.get(page_url,headers=headers)
 	#指定lxml解析器解析html文档
